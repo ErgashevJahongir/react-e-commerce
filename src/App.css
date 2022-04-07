@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.navbar-nav a {
+    font-size: 18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .buttons {
+    display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login {
+    height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type='email'] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type='password'] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.books ul li,
+.book ul li {
+    list-style: none;
+}
+
+.books *,
+.book * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.books a,
+.book a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.books .book__image {
+    width: 100%;
+    max-height: 440px;
+}
+
+@media screen and (max-width: 1400px) {
+    .books .book__image {
+        max-height: 390px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .books {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .books {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .books {
+        grid-template-columns: 1fr;
+    }
 }

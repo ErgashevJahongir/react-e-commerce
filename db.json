@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "name": "Ergashev Jahongir",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "Joha!12345",
+      "id": 1
+    },
+    {
+      "name": "Ergashev Jahongir",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "Joha!2000",
+      "id": 2
+    },
+    {
+      "name": "Ergashev Jahongir",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "Joha.2000",
+      "id": 3
+    },
+    {
+      "name": "Ergashev Jahongir",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "Ergashev Jahongir",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "12345678933",
+      "id": 5
+    },
+    {
+      "name": "Joha Ergashev",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "1456789",
+      "id": 6
+    },
+    {
+      "name": "Joha",
+      "email": "jahongirergawev2@gmail.com",
+      "password": "8963214",
+      "id": 7
+    }
+  ],
+  "login": [
+    {
+      "email": "jahongirergawev2@gmail.com",
+      "password": "12345678901",
+      "id": 1
+    },
+    {
+      "email": "jahongirergawev2@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "email": "jahongirergawev2@gmail.com",
+      "password": "123455648",
+      "id": 3
+    },
+    {
+      "email": "jahongirergashev0419@gmail.com",
+      "password": "1456987",
+      "id": 4
+    }
+  ]
+}
